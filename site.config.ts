@@ -14,16 +14,16 @@
 
 export default {
     siteMetadata: {
-      title: "next-portfolio",
+      title: "typescript-next-portfolio",
       author: {
-        name: "Andrew Ross",
-        summary: "Next+TS+Tailwindcss ft SSG",
+        name: "Yong Lee",
+        summary: "Typescript, Next, Tailwind CSS",
       },
-      description: "A portfolio created with Next.js and Tailwind.css",
-      siteUrl: "https://next-portfolio-asross.vercel.app/",
+      description: "Portfolio made with typescript and next.js",
+      siteUrl: "https://typescript-next-portfolio-yhlee.vercel.app/",
       language: "en-US",
       social: {
-        twitter: "Dopamine_Driven",
+        twitter: "YongstaLee",
       },
     },
   };
