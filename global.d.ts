@@ -1,9 +1,14 @@
+declare module 'remark-html' {
+	const html: any;
+	export default html;
+}
+
+declare module '@tailwindcss/typography';
+
 declare module 'fs';
-declare module 'tailwindcss-dark-mode';
+
 declare module 'to-vfile';
 declare module 'remark-images';
-import DomUtils from 'node_modules/domutils/index';
-declare const DomUtils;
 
 import {
 	IconDefinition,

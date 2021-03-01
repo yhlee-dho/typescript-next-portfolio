@@ -5,6 +5,7 @@
 // 		defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
 // 	}
 // ];
+
 module.exports = {
 	plugins: [
 		'tailwindcss',

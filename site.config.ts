@@ -1,15 +1,30 @@
+// interface siteMetaData {
+//   title: string;
+//   author: {
+//     name: string;
+//     summary: string;
+//   }
+//   description: string;
+//   siteUrl: string;
+//   language: string;
+//   social: {
+//     twitter: string
+//   }
+// }
+
 export default {
-  siteMetadata: {
-    title: "typescript-next-portfolio",
-    author: {
-      name: "Yong Lee",
-      summary: "Typescript Next portfolio styled with Tailwind.css",
+    siteMetadata: {
+      title: "next-portfolio",
+      author: {
+        name: "Andrew Ross",
+        summary: "Next+TS+Tailwindcss ft SSG",
+      },
+      description: "A portfolio created with Next.js and Tailwind.css",
+      siteUrl: "https://next-portfolio-asross.vercel.app/",
+      language: "en-US",
+      social: {
+        twitter: "Dopamine_Driven",
+      },
     },
-    description: "Portfolio created with Next.js and Tailwind.css",
-    siteUrl: "https://typescript-next-portfolio-yhlee.vercel.app/",
-    language: "en-US",
-    social: {
-      twitter: "YongLee",
-    },
-  },
-};
+  };
+  
