@@ -35,7 +35,7 @@ const MetaData = () => {
 				/>
 				<link rel='manifest' href='/fav/manifest.json' />
 				<link rel='mask-icon' href='/fav/safari-pinned-tab.svg' color='#000000' />
-				<link rel='shortcut icon' href='/fav/favicon.ico' />
+				<link rel='shortcut icon' href='/fav/favicon2.ico' />
 				<link rel='canonical' href='https://typescript-next-portfolio-yhlee.vercel.app/' />
 				<meta name='robots' content='all' />
 				<meta
