@@ -1,8 +1,8 @@
 ---
 title: 'Google Book Search'
 excerpt: 'MERN Google book search and store.'
-coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644595/portfolio/googleBook_poyqij.jpg'
-articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644595/portfolio/googleBook_poyqij.jpg'
+coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658125/portfolio/resized-googleBook_smeu9t.jpg'
+articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658125/portfolio/resized-googleBook_smeu9t.jpg'
 date: "2020-04-27T01:00:00.322Z"
 author:
   name: Yong Lee

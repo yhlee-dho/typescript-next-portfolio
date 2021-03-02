@@ -1,8 +1,8 @@
 ---
 title: 'Homeschoolr'
 excerpt: 'Scheduler that can dynamically populate schedules for multiple users based on user type.'
-coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644595/portfolio/homeschoolr_tv1omz.jpg'
-articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644595/portfolio/homeschoolr_tv1omz.jpg'
+coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658125/portfolio/resized-homeschoolr_rjp1ss.jpg'
+articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658125/portfolio/resized-homeschoolr_rjp1ss.jpg'
 date: "2020-04-11T01:20:02.322Z"
 author:
   name: Yong Lee

@@ -1,8 +1,8 @@
 ---
 title: 'My Portfolio'
 excerpt: 'Portfolio made with Typescript and Next.js'
-coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644594/portfolio-size_300x200px_e0xr5f.png'
-articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644594/portfolio-size_300x200px_e0xr5f.png'
+coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658125/portfolio/resized-myportfolio_idcy8m.jpg'
+articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658125/portfolio/resized-myportfolio_idcy8m.jpg'
 date: "2021-03-01T22:01:40.322Z"
 author:
   name: Yong Lee

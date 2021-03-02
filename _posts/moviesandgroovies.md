@@ -1,8 +1,8 @@
 ---
 title: 'Movies and Groovies'
 excerpt: 'Cinema finder for current movies'
-coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614648557/portfolio/moviesAndGroovies_kjdhfy.jpg'
-articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614648557/portfolio/moviesAndGroovies_kjdhfy.jpg'
+coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658126/portfolio/resized-moviesAndGroovies_uptbnh.jpg'
+articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658126/portfolio/resized-moviesAndGroovies_uptbnh.jpg'
 date: "2019-12-16T01:00:00.322Z"
 author:
   name: Yong Lee
