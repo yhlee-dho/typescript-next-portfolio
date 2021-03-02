@@ -27,7 +27,7 @@ const Index = ({ allPosts, props, preview }: Props) => {
 			<Layout preview={preview}>
 				<Sidebar />
 				<Head>
-					<title>A Nextjs Portfolio via {CMS_NAME}</title>
+					<title>Website made using {CMS_NAME}</title>
 				</Head>
 				<Container>
 					<Intro props={props} />
@@ -41,6 +41,7 @@ const Index = ({ allPosts, props, preview }: Props) => {
 							excerpt={heroPost.excerpt}
 						/>
 					)} */}
+					
 					<div className='max-w-5xl mt-5 mb-5 grid mx-auto content-center justify-center items-center text-center'>
 						{morePosts.length > 0 && <MoreCards posts={morePosts} />}
 					</div>

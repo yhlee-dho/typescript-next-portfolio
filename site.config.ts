@@ -23,7 +23,7 @@ export default {
       siteUrl: "https://typescript-next-portfolio-yhlee.vercel.app/",
       language: "en-US",
       social: {
-        twitter: "YongstaLee",
+        twitter: "yongstal",
       },
     },
   };

@@ -16,30 +16,30 @@ export interface IconProps {
 
 export const iconLinks: IconProps[] = [
 	{
-		href: 'https://github.com/DopamineDriven',
+		href: 'https://github.com/yhlee-dho',
 		name: 'github',
 		icon: faGithub
 	},
 	{
-		href: 'https://www.linkedin.com/in/asross/',
+		href: 'https://www.linkedin.com/in/yong-lee-a16430193/',
 		name: 'linkedin',
 		icon: faLinkedin
 	},
 	{
-		href: 'https://twitter.com/Dopamine_Driven',
+		href: 'https://twitter.com/yongstal',
 		name: 'twitter',
 		icon: faTwitter
 	},
-	{
-		href: 'https://dev.to/dopaminedriven',
-		name: 'dev',
-		icon: faDev
-	},
-	{
-		href: 'https://medium.com/@andrew.simpson.ross',
-		name: 'medium',
-		icon: faMedium
-	}
+	// {
+	// 	href: '',
+	// 	name: 'dev',
+	// 	icon: faDev
+	// },
+	// {
+	// 	href: '',
+	// 	name: 'medium',
+	// 	icon: faMedium
+	// }
 ];
 
 const SocialMediaIcons = () => {

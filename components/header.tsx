@@ -22,10 +22,10 @@ const links: NavRef[] = [
 		href: '/about',
 		label: 'About'
 	},
-	{
-		href: '/blog',
-		label: 'Blog'
-	},
+	// {
+	// 	href: '/blog',
+	// 	label: 'Blog'
+	// },
 	{
 		href: '/contact',
 		label: 'Contact'
@@ -42,7 +42,7 @@ const Header = ({ props }: HeaderProps) => {
 		<li className='nav-item' key={`${link.href}-${link.label}`}>
 			<Link href={link.href}>
 				<a
-					className={`px-5 bg-black opacity-100 text-lg md:bg-black md:hover:bg-black md:opacity-75 md:hover:animate-pulse mx-auto md:px-5 md:mx-auto flex text-left 
+					className={`px-5  opacity-100 text-lg mx-auto md:px-5 md:mx-auto flex text-left 
 					md:text-center w-full h-full min-h-full md:text-2xl font-bold leading-loose md:leading-loose text-white hover:opacity-75 
 					antialiased transform transition-all duration-1000 justify-center uppercase md:tracking-widest md:uppercase tracking-widest md:my-auto md:flex md:justify-start`}
 					aria-label={link.label}
@@ -53,7 +53,7 @@ const Header = ({ props }: HeaderProps) => {
 		</li>
 	));
 
-	const threadingTheNeedle = (
+	const navPlacement = (
 		<div
 			className={
 				'md:flex md:mx-auto md:my-auto md:h-full md:w-full flex-grow flex-wrap' +
@@ -94,38 +94,38 @@ const Header = ({ props }: HeaderProps) => {
 
 	const paddingConditional = navOpen ? ' py-1' : ' py-10 md:py-0';
 
-	const logoT = (
-		<div className='flex flex-row mx-auto justify-center w-full min-w-full md:my-auto my-auto md:py-4 py-0 mt-2 md:mt-10 lg:mt-18 xl:mt-20'>
-			<Link href='/'>
-				<a
-					className={`inline-block leading-relaxed whitespace-no-wrap text-white hover:opacity-75 text-xl rounded md:py-0 ${paddingConditional} mt-1`}
-				>
-					{<NewSvgLogo fillColor='#000000' />}
-				</a>
-			</Link>
-		</div>
-	);
+	// const logoT = (
+	// 	<div className='flex flex-row mx-auto justify-center w-full min-w-full md:my-auto my-auto md:py-4 py-0 mt-2 md:mt-10 lg:mt-18 xl:mt-20'>
+	// 		<Link href='/'>
+	// 			<a
+	// 				className={`inline-block leading-relaxed whitespace-no-wrap text-white hover:opacity-75 text-xl rounded md:py-0 ${paddingConditional} mt-1`}
+	// 			>
+	// 				{<NewSvgLogo fillColor='#000000' />}
+	// 			</a>
+	// 		</Link>
+	// 	</div>
+	// );
 
-	const logoB = (
-		<div
-			className={`flex flex-row mx-auto justify-center w-full min-w-full md:my-auto my-auto trasition-all duration-2000 py-0 md:mt-10 lg:mt-10 xl:mt-24`}
-		>
-			<Link href='/'>
-				<a
-					className={`inline-block leading-relaxed whitespace-no-wrap text-white hover:opacity-75 opacity-75 text-xl rounded md:py-0 ${paddingConditional} transform md:rotate-0 rotate-0`}
-				>
-					{
-						<NewSvgLogo
-							fillColor2='#ffffff'
-							fillColor3='#ffffff'
-							fillColor='#000000'
-							fillColor4='#ffffff'
-						/>
-					}
-				</a>
-			</Link>
-		</div>
-	);
+	// const logoB = (
+	// 	<div
+	// 		className={`flex flex-row mx-auto justify-center w-full min-w-full md:my-auto my-auto trasition-all duration-2000 py-0 md:mt-10 lg:mt-10 xl:mt-24`}
+	// 	>
+	// 		<Link href='/'>
+	// 			<a
+	// 				className={`inline-block leading-relaxed whitespace-no-wrap text-white hover:opacity-75 opacity-75 text-xl rounded md:py-0 ${paddingConditional} transform md:rotate-0 rotate-0`}
+	// 			>
+	// 				{
+	// 					<NewSvgLogo
+	// 						fillColor2='#ffffff'
+	// 						fillColor3='#ffffff'
+	// 						fillColor='#000000'
+	// 						fillColor4='#ffffff'
+	// 					/>
+	// 				}
+	// 			</a>
+	// 		</Link>
+	// 	</div>
+	// );
 
 	const responsiveNav = (
 		<div className='flex w-full relative md:min-w-full md:mx-auto md:my-auto md:align-middle md:float-left justify-between md:w-full md:justify-center md:flex md:flex-row md:flex-grow'>
@@ -196,7 +196,7 @@ const Header = ({ props }: HeaderProps) => {
 				<div
 					className={`xl:h-threeFourths lg:h-fourFifths md:h-sevenEights sm:${heightOnOpenSm} ${heightOnOpen} transform duration-2000 absolute transition-all bg-opacity-10 ${!pulseOnOpen} bg-lighterBlack flex flex-row w-full bg-contain antialiased`}
 					style={{
-						backgroundImage: `url(https://res.cloudinary.com/asross311/image/upload/v1597640990/portfolio/unsplash-chemistry_sfct4z.jpg)`,
+						backgroundImage: `url(https://res.cloudinary.com/yongstal/image/upload/v1614651075/portfolio/portfolio_top_ulk4ua.png)`,
 						backgroundRepeat: 'no-repeat',
 						backgroundSize: '100% 100%',
 						backgroundColor: 'black'
@@ -254,8 +254,9 @@ const Header = ({ props }: HeaderProps) => {
 							</div>
 							<div className='overflow-hidden'>
 								<Fragment>
-									{/* {logoT} removed from below for UI/UX testing */}
-									{threadingTheNeedle} {logoB}
+									{/* {logoT} removed for UI/UX testing */}
+									{navPlacement}
+									{/* {logoB} */}
 								</Fragment>
 							</div>
 						</div>

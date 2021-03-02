@@ -90,7 +90,7 @@ export default function Intro({ props }: IntroProps) {
 				<Link href='/'>
 					<a
 						className='bg-black cursor-pointer select-text rounded-lg px-5'
-						aria-label='Andrew Ross'
+						aria-label='Yong Lee'
 					>
 						<CustomLogo />
 					</a>
