@@ -1,5 +1,6 @@
 import Author from 'types/author';
 import TechIcons from 'types/tech-icons';
+
 interface PostType {
 	slug: string;
 	title: string;
@@ -11,6 +12,7 @@ interface PostType {
 		url: string;
 	};
 	content: string;
+	
 }
 
 export default PostType;
