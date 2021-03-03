@@ -42,7 +42,7 @@ const Header = ({ props }: HeaderProps) => {
 		<li className='nav-item' key={`${link.href}-${link.label}`}>
 			<Link href={link.href}>
 				<a
-					className={`px-5  opacity-100 text-lg mx-auto md:px-5 md:mx-auto flex text-left 
+					className={`px-5  opacity-100 text-lg mx-auto md:px-5 md:mx-auto flex text-left hover:bg-black
 					md:text-center w-full h-full min-h-full md:text-2xl font-bold leading-loose md:leading-loose text-white hover:opacity-75 
 					antialiased transform transition-all duration-1000 justify-center uppercase md:tracking-widest md:uppercase tracking-widest md:my-auto md:flex md:justify-start`}
 					aria-label={link.label}
@@ -64,18 +64,25 @@ const Header = ({ props }: HeaderProps) => {
 				<div
 					className={`bg-transparent pb-4 leading-none h-full block flex-row hover:bg-black flex-grow w-full text-xl text-center justify-center mx-auto my-auto uppercase text-white ${onHover}`}
 				>
-					<p className='hover:bg-black opacity-90 tracking-widest mx-auto inline-flex min-w-full text-lg md:text-3xl mb-2 text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
-						Yong&nbsp;&nbsp;Lee
+
+<br />
+					
+					<p className='hover:bg-black opacity-90 tracking-widest mx-auto inline-flex min-w-full text-lg md:text-6xl mb-2 text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
+						Hello&nbsp;World&nbsp;&nbsp;-&nbsp;by&nbsp;Yong&nbsp;Lee
 					</p>
+					
 					<p className='my-1'>Full Stack Web Developer</p>
 				</div>
 			) : (
-				<div className='bg-transparent cursor-pointer flex flex-col flex-grow w-full text-1xl md:text-3xl text-center justify-center mx-auto my-0 uppercase text-white '>
+				<div className='bg-transparent cursor-pointer flex flex-col flex-grow w-full text-1xl md:text-6xl text-center justify-center mx-auto my-0 uppercase text-white '>
+					<br />
+
 					<p className='hover:bg-black hover:bg-opacity-10 mx-auto tracking-widest md:text-1x1 md:tracking-widest inline-flex px-auto min-w-full text-center justify-center antialiased transform transition-colors duration-1000'>
-						Yong&nbsp;&nbsp;Lee
+							Hello&nbsp;World&nbsp;&nbsp;-&nbsp;by&nbsp;Yong&nbsp;Lee
 					</p>{' '}
+
 					<p className='hover:bg-black md:text-3xl opacity-75 tracking-widest mx-auto inline-flex min-w-full text-2xl text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
-					Full Stack Web Developer
+					Full Stack Web Developer 
 					</p>
 				</div>
 			)}
@@ -145,7 +152,7 @@ const Header = ({ props }: HeaderProps) => {
 						aria-label='open-nav'
 						className='transition duration-1000 hover:opacity-75 w-full'
 					>
-						<svg
+						{/* <svg
 							fill='none'
 							viewBox='0 0 24 24'
 							className='h-8 w-8 transition transform rotate-180 duration-1000'
@@ -157,14 +164,14 @@ const Header = ({ props }: HeaderProps) => {
 								strokeWidth='3.5'
 								stroke='currentColor'
 							/>
-						</svg>
+						</svg> */}
 					</a>
 				) : (
 					<a
 						aria-label='open-nav'
 						className='transition-colors delay-1000 hover:opacity-75'
 					>
-						<svg
+						{/* <svg
 							fill='none'
 							viewBox='0 0 24 24'
 							className='h-8 w-8 transform rotate-855 transition duration-1000'
@@ -176,7 +183,7 @@ const Header = ({ props }: HeaderProps) => {
 								strokeWidth='2.5'
 								stroke='currentColor'
 							/>
-						</svg>
+						</svg> */}
 					</a>
 				)}
 			</button>
@@ -184,19 +191,19 @@ const Header = ({ props }: HeaderProps) => {
 	);
 	// calculate vpw/vph - https://www.hawatel.com/blog/handle-window-resize-in-react/
 
-	const heightOnOpen = navOpen ? ' h-whole' : ' h-sevenEighths';
-	const heightOnOpenSm = navOpen ? ' h-whole' : ' h-fourFifths';
+	const heightOnOpen = navOpen ? ' h-whole' : ' h-threeFifths';
+	const heightOnOpenSm = navOpen ? ' h-whole' : ' h-twoFifths';
 	const pulseOnOpen = navOpen ? ' animate-none' : ' animate-pulse';
 
 	const nav = (
 		<nav
-			className={`flex flex-row flex-wrap font-header xl:h-threeFourths lg:h-threeFourths md:h-fourFifths sm:${heightOnOpenSm} ${heightOnOpen} container overflow-y-hidden overflow-x-hidden -mx-5`}
+			className={`flex flex-row flex-wrap font-header xl:h-twoFifths lg:h-twoFifths md:h-threeFifths sm:${heightOnOpenSm} ${heightOnOpen} container overflow-y-hidden overflow-x-hidden -mx-5`}
 		>
 			<Container>
 				<div
-					className={`xl:h-threeFourths lg:h-fourFifths md:h-sevenEights sm:${heightOnOpenSm} ${heightOnOpen} transform duration-2000 absolute transition-all bg-opacity-10 ${!pulseOnOpen} bg-lighterBlack flex flex-row w-full bg-contain antialiased`}
+					className={`xl:h-twoFifths lg:h-twoFifths md:h-threeFifths sm:${heightOnOpenSm} ${heightOnOpen} transform duration-2000 absolute transition-all bg-opacity-10 ${!pulseOnOpen} bg-lighterBlack flex flex-row w-full bg-contain antialiased`}
 					style={{
-						backgroundImage: `url(https://res.cloudinary.com/yongstal/image/upload/v1614651075/portfolio/portfolio_top_ulk4ua.png)`,
+						backgroundImage: `url(https://res.cloudinary.com/yongstal/image/upload/v1614733230/portfolio/profile_top1C_av0f89.jpg)`,
 						backgroundRepeat: 'no-repeat',
 						backgroundSize: '100% 100%',
 						backgroundColor: 'black'

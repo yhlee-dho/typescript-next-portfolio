@@ -10,7 +10,7 @@ import Post from 'types/post';
 import Header from 'components/header';
 import { iconLinks } from 'components/social-media-icons-footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Sidebar from 'components/landing-sidebar';
+// import Sidebar from 'components/landing-sidebar';
 
 type Props = {
 	allPosts: Post[];
@@ -25,7 +25,7 @@ const Index = ({ allPosts, props, preview }: Props) => {
 		<>
 			<Header props={props} />
 			<Layout preview={preview}>
-				<Sidebar />
+				{/* <Sidebar /> */}
 				<Head>
 					<title>Website made using {CMS_NAME}</title>
 				</Head>
