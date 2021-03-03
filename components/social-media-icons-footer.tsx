@@ -50,7 +50,7 @@ const SocialMediaIcons = () => {
 				aria-label={link.name}
 				target='__blank'
 				href={link.href}
-				className='bg-black text-white hover:opacity-10 hover:bg-iconHoverTwo opacity-25 transform transition-colors duration-500 shadow-lg font-lg items-center justify-center align-center outline-none focus:outline-none rounded-full py-2 px-3 inline-block text-center'
+				className='bg-tailwindBlue text-white hover:opacity-10 hover:bg-iconHoverTwo opacity-25 transform transition-colors duration-500 shadow-lg font-lg items-center justify-center align-center outline-none focus:outline-none rounded-full py-2 px-3 inline-block text-center'
 			>
 				<FontAwesomeIcon icon={link.icon} size='2x' />
 			</a>
@@ -58,7 +58,7 @@ const SocialMediaIcons = () => {
 });
 	return (
 		<div className='flex flex-wrap transform duration-1000'>
-			<ul className='flex flex-row mx-auto lg:flex-row list-none lg:mx-auto py-1'>
+			<ul className='flex flex-row mx-auto lg:flex-row list-none lg:mx-auto py-1 '>
 				<li>{iconMap}</li>
 			</ul>
 		</div>

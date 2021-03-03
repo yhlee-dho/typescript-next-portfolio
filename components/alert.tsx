@@ -12,7 +12,7 @@ const Alert = ({ preview }: Props) => {
 		<div
 			className={cn('border-t bg-black', {
 				'bg-accent-7 border-accent-7 text-white': preview,
-				'bg-black border-top border-cimaRed w-full align-middle justify-center': !preview
+				'bg-blizzardBlue border-top border-tailwindBlue w-full align-middle justify-center': !preview
 			})}
 		>
 			<Container>

@@ -42,7 +42,7 @@ const Header = ({ props }: HeaderProps) => {
 		<li className='nav-item' key={`${link.href}-${link.label}`}>
 			<Link href={link.href}>
 				<a
-					className={`px-5  opacity-100 text-lg mx-auto md:px-5 md:mx-auto flex text-left hover:bg-black
+					className={`px-5  opacity-100 text-lg mx-auto md:px-5 md:mx-auto flex text-left hover:bg-tailwindBlue border-b-2 border-blizzardBlue
 					md:text-center w-full h-full min-h-full md:text-2xl font-bold leading-loose md:leading-loose text-white hover:opacity-75 
 					antialiased transform transition-all duration-1000 justify-center uppercase md:tracking-widest md:uppercase tracking-widest md:my-auto md:flex md:justify-start`}
 					aria-label={link.label}
@@ -57,17 +57,16 @@ const Header = ({ props }: HeaderProps) => {
 		<div
 			className={
 				'md:flex md:mx-auto md:my-auto md:h-full md:w-full flex-grow flex-wrap' +
-				(navOpen ? ' flex bg-black opacity-90' : ' hidden')
+				(navOpen ? ' flex bg-tailwindBlue opacity-90' : ' hidden')
 			}
 		>
 			{navOpen ? (
 				<div
-					className={`bg-transparent pb-4 leading-none h-full block flex-row hover:bg-black flex-grow w-full text-xl text-center justify-center mx-auto my-auto uppercase text-white ${onHover}`}
+					className={`bg-transparent pb-4 leading-none h-full block flex-row hover:text-blizzardBlue flex-grow w-full text-xl text-center justify-center mx-auto my-auto uppercase text-white ${onHover}`}
 				>
-
-<br />
+				<br />
 					
-					<p className='hover:bg-black opacity-90 tracking-widest mx-auto inline-flex min-w-full text-lg md:text-6xl mb-2 text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
+					<p className='hover:text-blizzardBlue opacity-90 tracking-widest mx-auto inline-flex min-w-full text-lg md:text-6xl mb-2 text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
 						Hello&nbsp;World&nbsp;&nbsp;-&nbsp;by&nbsp;Yong&nbsp;Lee
 					</p>
 					
@@ -77,11 +76,11 @@ const Header = ({ props }: HeaderProps) => {
 				<div className='bg-transparent cursor-pointer flex flex-col flex-grow w-full text-1xl md:text-6xl text-center justify-center mx-auto my-0 uppercase text-white '>
 					<br />
 
-					<p className='hover:bg-black hover:bg-opacity-10 mx-auto tracking-widest md:text-1x1 md:tracking-widest inline-flex px-auto min-w-full text-center justify-center antialiased transform transition-colors duration-1000'>
+					<p className='hover:text-blizzardBlue hover:bg-opacity-10 mx-auto tracking-widest md:text-1x1 md:tracking-widest inline-flex px-auto min-w-full text-center justify-center antialiased transform transition-colors duration-1000'>
 							Hello&nbsp;World&nbsp;&nbsp;-&nbsp;by&nbsp;Yong&nbsp;Lee
 					</p>{' '}
 
-					<p className='hover:bg-black md:text-3xl opacity-75 tracking-widest mx-auto inline-flex min-w-full text-2xl text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
+					<p className='hover:text-blizzardBlue md:text-3xl opacity-75 tracking-widest mx-auto inline-flex min-w-full text-2xl text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
 					Full Stack Web Developer 
 					</p>
 				</div>
@@ -280,7 +279,7 @@ const Header = ({ props }: HeaderProps) => {
 	);
 	return (
 		<Fragment>
-			<div className='bg-black transform transition-all duration-1000 container w-full min-w-full'>
+			<div className='bg-blizzardBlue transform transition-all duration-1000 container w-full min-w-full'>
 				{' '}
 				{nav}
 				{subnav}
