@@ -1,8 +1,8 @@
 ---
 title: 'Placeholder Blog Post'
 excerpt: 'This is a placeholder.'
-coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658682/portfolio/SAM_3421_kmvghe.jpg'
-articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614658682/portfolio/SAM_3421_kmvghe.jpg'
+coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644594/portfolio-size_300x200px_e0xr5f.png'
+articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644594/portfolio-size_300x200px_e0xr5f.png'
 date: '2020-03-01T01:00:00.322Z'
 author:
  name: Yong Lee

@@ -29,7 +29,7 @@ export default function Avatar({
 							aria-label='github'
 							target='__blank'
 							href={github}
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{github === '' ? (
 								<></>
@@ -48,7 +48,7 @@ export default function Avatar({
 							aria-label='github'
 							target='__blank'
 							href={heroku}
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{heroku === '' ? (
 								<></>
@@ -68,7 +68,7 @@ export default function Avatar({
 							aria-label='github'
 							target='__blank'
 							href={vercel}
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{vercel === '' ? (
 								<></>

@@ -26,7 +26,7 @@ const Blog = ({ allBlogs, preview, props }: BlogProps) => {
 			<Layout preview={preview}>
 				<LandingSidebar />
 				<Head>
-					<title>{`${CLIENT_NAME}' about page`}</title>
+					<title>{`${CLIENT_NAME}'s blog page`}</title>
 				</Head>
 				<Container>
 					<Intro props={props} />
