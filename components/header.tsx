@@ -22,10 +22,10 @@ const links: NavRef[] = [
 		href: '/about',
 		label: 'About'
 	},
-	// {
-	// 	href: '/blog',
-	// 	label: 'Blog'
-	// },
+	{
+		href: '/blog',
+		label: 'Blog'
+	},
 	{
 		href: '/contact',
 		label: 'Contact'

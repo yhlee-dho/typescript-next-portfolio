@@ -119,7 +119,7 @@ const CardIcons = ({
 							aria-label={antdesign}
 							target='__blank'
 							href='https://ant.design/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-threeHalves rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-threeHalves rounded-full focus:outline-none'
 						>
 							{antdesign === '' ? (
 								<></>
@@ -139,7 +139,7 @@ const CardIcons = ({
 							aria-label='apollo'
 							target='__blank'
 							href='https://www.apollographql.com/docs/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-threeHalves rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-threeHalves rounded-full focus:outline-none'
 						>
 							{apollo === '' ? (
 								<></>
@@ -159,7 +159,7 @@ const CardIcons = ({
 							aria-label='auth0'
 							target='__blank'
 							href='https://auth0.com/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{auth0 === '' ? (
 								<></>
@@ -179,7 +179,7 @@ const CardIcons = ({
 							aria-label='graphql'
 							target='__blank'
 							href='https://www.graphql.com/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-threeHalves rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-threeHalves rounded-full focus:outline-none'
 						>
 							{graphql === '' ? (
 								<></>
@@ -199,7 +199,7 @@ const CardIcons = ({
 							aria-label='next'
 							target='__blank'
 							href='https://nextjs.org/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{next === '' ? (
 								<></>
@@ -218,7 +218,7 @@ const CardIcons = ({
 							aria-label='react'
 							target='__blank'
 							href='https://reactjs.org/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{react === '' ? (
 								<></>
@@ -238,7 +238,7 @@ const CardIcons = ({
 							aria-label='tailwindcss'
 							target='__blank'
 							href='https://tailwindcss.com/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{tailwindcss === '' ? (
 								<></>
@@ -257,7 +257,7 @@ const CardIcons = ({
 							aria-label='typescript'
 							target='__blank'
 							href='https://www.typescriptlang.org/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{typescript === '' ? (
 								<></>
@@ -277,7 +277,7 @@ const CardIcons = ({
 							aria-label='wordpress'
 							target='__blank'
 							href='https://wpengine.com/resources/headless-cms-and-wordpress/'
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{wordpress === '' ? (
 								<></>
@@ -333,7 +333,7 @@ export default CardIcons;
 							aria-label='react'
 							target='__blank'
 							href=''
-							className='bg-black text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
+							className='bg-tailwindBlue text-white hover:text-white hover:bg-iconHover transition-colors leading-normal duration-500 text-lg inline-block text-center items-center align-middle justify-center w-8 h-8 mx-1 my-2 pt-1 rounded-full focus:outline-none'
 						>
 							{apollo === '' ? (
 								<></>
