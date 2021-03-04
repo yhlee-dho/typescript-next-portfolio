@@ -5,6 +5,7 @@ import Layout from 'components/layout';
 import Container from 'components/container';
 import { CLIENT_NAME } from 'lib/constants';
 
+
 import PostHeader from 'components/post-header';
 import PostBody from 'components/post-body';
 import Blog from 'types/blog';
@@ -25,12 +26,14 @@ interface AboutProps {
 
 
 const About = ({ about, props, preview }: AboutProps) => {
+
 	return (
 		<>
 			<Header props={props} />
 			<Layout preview={preview}>
 				<Head>
 					<title>{`${CLIENT_NAME} about page`}</title>
+
 					
 				</Head>
 				<Container>
@@ -55,6 +58,7 @@ const About = ({ about, props, preview }: AboutProps) => {
 						author={about.author}
 					/>
 					<PostBody content={about.content} /> */}
+
 				</Container>
 
 			</Layout>
@@ -63,6 +67,7 @@ const About = ({ about, props, preview }: AboutProps) => {
 }
 
 export default About;
+
 
 // interface AboutParams {
 // 	params: {
