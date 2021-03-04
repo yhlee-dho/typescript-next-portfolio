@@ -2,17 +2,17 @@ import fs from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
 
-// --- About using Blog props ---
+// --- About ---
 
-const blogsDirectory = join(process.cwd(), '_about');
+const aboutDirectory = join(process.cwd(), '_about');
 
-export function getBlogSlugs() {
-	return fs.readdirSync(blogsDirectory);
+export function getAboutSlugs() {
+	return fs.readdirSync(aboutDirectory);
 }
 
-export function getBlogBySlug(slug: string, fields: string[] = []) {
+export function getAboutBySlug(slug: string, fields: string[] = []) {
 	const realSlug = slug.replace(/\.md$/, '');
-	const fullPath = join(blogsDirectory, `${realSlug}.md`);
+	const fullPath = join(aboutDirectory, `${realSlug}.md`);
 	const fileContents = fs.readFileSync(fullPath, 'utf8');
 	const { data, content } = matter(fileContents);
 
@@ -39,11 +39,3 @@ export function getBlogBySlug(slug: string, fields: string[] = []) {
 	return items;
 }
 
-export function getAllBlogs(fields: string[] = []) {
-	const slugs = getBlogSlugs();
-	const blogs = slugs
-		.map(slug => getBlogBySlug(slug, fields))
-		// sort posts by date in descending order
-		.sort((blog1, blog2) => (blog1.date > blog2.date ? -1 : 1));
-	return blogs;
-}
