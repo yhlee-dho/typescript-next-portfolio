@@ -74,7 +74,7 @@ const About = ({ about, props, preview }: AboutProps) => {
 			
 					<p className='hover:text-tailwindBlue text-fiveOBlack text-3x1 font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8'>
 						At Windy City Devs, we utilize Typescript for its superior error handling capabilities,
-						and Next.js as our framework of choice for its compatability with Typescript and its amazingly simple Vercel intedration for deployment.
+						and Next.js as our framework of choice for its compatability with Typescript and its amazingly simple Vercel integration for deployment.
 						
 						
 						</p>
