@@ -91,7 +91,7 @@ const About = ({ about, props, preview }: AboutProps) => {
 					</p>
 					<p className='hover:text-tailwindBlue text-fiveOBlack text-3x1 font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8'>
 						Prior to my assimilation to code, my background was in marketing and publishing.
-						Korea Times is a ethnic local newspaper company that serve 23 midwest states as a daily newspaper publisher.
+						Korea Times is an ethnic local newspaper company that serves 23 midwest states as a daily newspaper publisher.
 						At Korea Times I managed daily operations and edited the U.S. sections.
 					</p>
 
