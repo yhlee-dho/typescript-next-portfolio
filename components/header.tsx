@@ -18,14 +18,14 @@ const links: NavRef[] = [
 		href: '/',
 		label: 'Portfolio'
 	},
+	// {
+	// 	href: '/aboutme',
+	// 	label: 'AboutMe'
+	// },
 	{
 		href: '/about',
 		label: 'About'
 	},
-	// {
-	// 	href: '/blog',
-	// 	label: 'Blog'
-	// },
 	{
 		href: '/contact',
 		label: 'Contact'

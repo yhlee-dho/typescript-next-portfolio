@@ -17,7 +17,7 @@ type Props = {
 	content: string;
 };
 
-const PostBodyBlog = ({ content }: Props) => {
+const PostBodyAbout = ({ content }: Props) => {
 	return (
 		<div className='max-w-2xl prose prose-lg mx-auto content-center text-left md:text-justify items-center justify-center align-middle sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl'>
 			<ReactMarkdown
@@ -30,6 +30,6 @@ const PostBodyBlog = ({ content }: Props) => {
 	);
 };
 
-export default PostBodyBlog;
+export default PostBodyAbout;
 
 // https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/react-syntax-highlighter/index.d.ts

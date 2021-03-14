@@ -1,6 +1,6 @@
-import Avatar from 'components/avatar-blog';
+import Avatar from 'components/avatar-about';
 import DateFormater from 'components/date-formatter';
-import CoverImage from 'components/cover-image-blog';
+import CoverImage from 'components/cover-image-about';
 import PostTitle from 'components/post-title';
 import Author from 'types/author';
 
@@ -11,7 +11,7 @@ type Props = {
 	author: Author;
 };
 
-const PostHeaderBlog = ({ title, coverImage, date, author }: Props) => {
+const PostHeaderAbout = ({ title, coverImage, date, author }: Props) => {
 	return (
 		<div className='mt-4'>
 			<PostTitle>{title}</PostTitle>
@@ -38,4 +38,4 @@ const PostHeaderBlog = ({ title, coverImage, date, author }: Props) => {
 	);
 };
 
-export default PostHeaderBlog;
+export default PostHeaderAbout;

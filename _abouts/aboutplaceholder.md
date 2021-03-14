@@ -1,5 +1,5 @@
 ---
-title: 'Placeholder Blog Post'
+title: 'Placeholder About Post'
 excerpt: 'This is a placeholder.'
 coverImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644594/portfolio-size_300x200px_e0xr5f.png'
 articleImage: 'https://res.cloudinary.com/yongstal/image/upload/v1614644594/portfolio-size_300x200px_e0xr5f.png'

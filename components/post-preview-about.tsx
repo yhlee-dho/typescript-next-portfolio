@@ -1,6 +1,6 @@
-import Avatar from 'components/avatar-blog';
+import Avatar from 'components/avatar-about';
 import DateFormater from 'components/date-formatter';
-import CoverImage from 'components/cover-image-blog';
+import CoverImage from 'components/cover-image-about';
 import Link from 'next/link';
 import Author from 'types/author';
 
@@ -13,7 +13,7 @@ type Props = {
 	slug: string;
 };
 
-const PostPreviewBlog = ({
+const PostPreviewAbout = ({
 	title,
 	coverImage,
 	date,
@@ -27,7 +27,7 @@ const PostPreviewBlog = ({
 				<CoverImage slug={slug} title={title} src={coverImage} />
 			</div>
 			<h3 className='text-3xl mb-3 leading-snug'>
-				<Link as={`/blogs/${slug}`} href='/blogs/[slug]'>
+				<Link as={`/abouts/${slug}`} href='/abouts/[slug]'>
 					<a className='hover:underline'>{title}</a>
 				</Link>
 			</h3>
@@ -40,4 +40,4 @@ const PostPreviewBlog = ({
 	);
 };
 
-export default PostPreviewBlog;
+export default PostPreviewAbout;

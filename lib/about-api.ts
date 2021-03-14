@@ -4,15 +4,15 @@ import matter from 'gray-matter';
 
 // --- About ---
 
-const aboutDirectory = join(process.cwd(), '_about');
+const aboutsDirectory = join(process.cwd(), '_abouts');
 
 export function getAboutSlugs() {
-	return fs.readdirSync(aboutDirectory);
+	return fs.readdirSync(aboutsDirectory);
 }
 
 export function getAboutBySlug(slug: string, fields: string[] = []) {
 	const realSlug = slug.replace(/\.md$/, '');
-	const fullPath = join(aboutDirectory, `${realSlug}.md`);
+	const fullPath = join(aboutsDirectory, `${realSlug}.md`);
 	const fileContents = fs.readFileSync(fullPath, 'utf8');
 	const { data, content } = matter(fileContents);
 
@@ -39,3 +39,11 @@ export function getAboutBySlug(slug: string, fields: string[] = []) {
 	return items;
 }
 
+export function getAllAbouts(fields: string[] = []) {
+	const slugs = getAboutSlugs();
+	const abouts = slugs
+		.map(slug => getAboutBySlug(slug, fields))
+		// sort posts by date in descending order
+		.sort((about1, about2) => (about1.date > about2.date ? -1 : 1));
+	return abouts;
+}
